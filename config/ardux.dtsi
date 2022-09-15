@@ -230,7 +230,7 @@
 		combo_enter      { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_E>; bindings = <&kp ENTER>; };
 		combo_control    { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_S>; bindings = <&sk LCTRL>; };
 		combo_gui        { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_Y KEY_S>; bindings = <&sk LGUI>; };
-		combo_alt        { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_I KEY_S>; bindings = <&sk LALT>; };
+		combo_alt        { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_I KEY_S>; bindings = <&sk RALT>; };
 		combo_backspace  { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_R>; bindings = <&kp BACKSPACE>; };
 		combo_delete     { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_I KEY_R>; bindings = <&kp DELETE>; };
 		combo_shift_lock { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_R KEY_Y>; bindings = <&kt LSHFT>; };
@@ -451,7 +451,7 @@
 				BIG_BETWEEN_ROW_ONE_TWO_NONES
 				&layer_custom_kp LAYER_ID_CUSTOM ARDUX_BASE_O      &kp ARDUX_BASE_I     &kp ARDUX_BASE_Y     &layer_symbols_kp LAYER_ID_SYMBOLS ARDUX_BASE_E               &sk LSHFT
 				BIG_BETWEEN_ROW_TWO_THREE_NONES
-				&ctrl_alt_kp LALT LCTRL                             &kp AT                &kp DEL               &kp EQUAL                                                      &kp TAB
+				&ctrl_alt_kp RALT LCTRL                             &kp AT                &kp DEL               &kp EQUAL                                                      &kp TAB
 				BIG_BETWEEN_ROW_THREE_THUMBS
 				&mo LAYER_ID_BIG_SYM                                &kp SPACE             &kp ENTER
 				BIG_TRAILING_NONES
