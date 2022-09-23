@@ -74,7 +74,7 @@
 // #define KEY_S 3
 // EYIO Row
 // #define KEY_E 4
-// #define KEY_SPACE 5
+// #define KEY_Y 5
 // #define KEY_I 6
 // #define KEY_O 7
 // Big ardux F1-12 layer keys for combo
@@ -182,7 +182,7 @@
 #define ARDUX_BASE_T T
 #define ARDUX_BASE_S S
 #define ARDUX_BASE_E E
-#define ARDUX_BASE_Y Y
+#define ARDUX_BASE_SPACE SPACE
 #define ARDUX_BASE_I I
 #define ARDUX_BASE_O O
 #define ARDUX_COMBO_N N
