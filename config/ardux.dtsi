@@ -182,7 +182,7 @@
 #define ARDUX_BASE_T T
 #define ARDUX_BASE_S S
 #define ARDUX_BASE_E E
-#define ARDUX_BASE_Y Y
+#define ARDUX_BASE_Y SPACE
 #define ARDUX_BASE_I I
 #define ARDUX_BASE_O O
 #define ARDUX_COMBO_N N
